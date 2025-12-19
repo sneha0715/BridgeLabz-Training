@@ -9,6 +9,5 @@ public class CourseDiscount {
     double discount=(fee*discountPercent)/100.0;
     double feePaid=fee-discount;
     System.out.println("The discount amount is INR "+discount+"and final discounted fee is INR " +feePaid);
-    sc.close();
   }
 }
