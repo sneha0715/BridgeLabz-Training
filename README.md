@@ -32,46 +32,5 @@
 **Location:** `core-java-pratice/gcr-codebase/leet-code-codebase/`
 
 ---
-# Core Java Practice – Programming Elements  
-**Date:** December 18, 2025 
 
----
 
-## ✅ Level 1 Practice Programs
-
-| Program | Description | Status |
-|--------|-------------|--------|
-| AgeOfHarry.java | Find age when birth year is 2000 (Current Year 2024) | ✔️ |
-| AverageMark.java | Find average % of PCM marks | ✔️ |
-| KilometersToMiles.java | Convert kilometers to miles | ✔️ |
-| ProfitAndLoss.java | Calculate Profit and Profit % (CP=129, SP=191) | ✔️ |
-| PensDistribution.java | Divide 14 pens → quotient & remainder | ✔️ |
-| DiscountCalculation.java | Course fee discount (fixed fee & 10%) | ✔️ |
-| VolumeOfEarth.java | Volume of Earth in km³ & miles³ | ✔️ |
-| KmToMile.java | Convert km → miles (user input) | ✔️ |
-| DiscountCalculation2.java | Course discount (user input) | ✔️ |
-| CmToFeet.java | Convert Height CM → Feet & Inches | ✔️ |
-| Calculator.java | Basic Calculator (Add, Sub, Mul, Div) | ✔️ |
-| AreaOfTriangle.java | Area of Triangle in sq.in & sq.cm | ✔️ |
-| SideOfSquare.java | Find side using Perimeter | ✔️ |
-| FindDistance.java | Feet → Yards & Miles | ✔️ |
-| CalculateTotalPrice.java | Total Purchase Price (unit price × qty) | ✔️ |
-| MaximumHandshake.java | Max Handshakes using n(n−1)/2 | ✔️ |
-
----
-
-## ✅ Level 2 Practice Programs
-
-| Program | Description | Status |
-|--------|-------------|--------|
-| Calculator2.java | Calculator using user input | ✔️ |
-| AreaOfTriangleInSq.java | Triangle Area in sq.cm & sq.in | ✔️ |
-| SideOfSquares2.java | Side of square using perimeter | ✔️ |
-| DistanceCalculation2.java | Feet → Yards & Miles | ✔️ |
-| PrintQuotientAndRem.java | Quotient & Remainder | ✔️ |
-| IntOperation.java | Integer operator precedence program | ✔️ |
-| DoubleOpt.java | Same operations using double values | ✔️ |
-
----
-
-🎯 **All Programs Successfully Completed**
