@@ -1,36 +1,30 @@
-# BridgeLabz-Training
-**Current Branch:** core-java-practice  
----
-**Date:** December 17, 2025 
-## 📚 Completed Programs
+# Daily Progress Log – BridgeLabz Training
 
-### Programming Elements (Basic Concepts)
-| Program | Description | Status |
-|---------|-------------|--------|
-| `Welcome.java` | Basic output program | ✅ |
-| `AddTwoNumber.java` | Add two numbers | ✅ |
-| `AvgOfThreeNo.java` | Find average of three numbers | ✅ |
-| `AreaOfCircle.java` | Calculate area of circle | ✅ |
-| `ParameterOfRec.java` | Calculate perimeter of rectangle | ✅ |
-| `VolumeOfCylinder.java` | Calculate volume of cylinder | ✅ |
-| `CalculateSimpleInterest.java` | Calculate simple interest | ✅ |
-| `PowerCalculation.java` | Calculate power of a number | ✅ |
-| `CelsiusToFarenhite.java` | Convert Celsius to Fahrenheit | ✅ |
-| `KmToMile.java` | Convert kilometers to miles | ✅ |
-
-**Location:** `core-java-pratice/gcr-codebase/programming-elements/`
-
-### LeetCode Practice
-| Program | Description | Status |
-|---------|-------------|--------|
-| `HelloWorld.java` | Basic Hello World | ✅ |
-| `CheckPrime.java` | Check if number is prime | ✅ |
-| `Fibonacci.java` | Fibonacci series generation | ✅ |
-| `MaxOfThreeNo.java` | Find maximum of three numbers | ✅ |
-| `Palindrome.java` | Check if string/number is palindrome | ✅ |
-
-**Location:** `core-java-pratice/gcr-codebase/leet-code-codebase/`
+This log documents the daily progress of tasks completed during the BridgeLabz training program, as recorded in the repository's commit history. Tasks are grouped by week with thematic headings, detailing the work done on each date and day.
 
 ---
 
+## Week 1: Java Fundamentals & Programming Elements
 
+**17-Dec-2025 (Tuesday):** Set up workspace. Solved and submitted basic [programming elements](https://github.com/sneha0715/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/programming-elements) problems. Completed [LeetCode-style problems](https://github.com/sneha0715/BridgeLabz-Training/tree/core-java-practice/core-java-practice/leet-code-codebase).
+
+
+**18-Dec-2025 (Wednesday):** Completed Level 1 and Level 2 classroom [programming elements](https://github.com/sneha0715/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/programming-elements) questions.
+
+**19-Dec-2025 (Thursday):** Studied control flow documentation.
+
+---
+
+## Week 2: Control Flow & Arrays
+
+**20-Dec-2025 (Friday):** Solved and submitted [control flow](https://github.com/sneha0715/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/control-flow) practice problems. Studied arrays documentation. Solved and submitted Level 1 and Level 2 problems on [arrays](https://github.com/sneha0715/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/arrays).
+
+**21-Dec-2025 (Sunday):** Developed [scenario-based applications](https://github.com/sneha0715/BridgeLabz-Training/tree/core-java-practice/core-java-practice/scenario-based).
+
+**22-Dec-2025 (Monday):** Studied strings documentation. Solved level 1 questions.
+
+**23-Dec-2025 (Tuesday):** Solved and submitted every level [string manipulation](https://github.com/sneha0715/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/strings) problems.
+
+---
+
+<!-- Add new entries above this line -->
