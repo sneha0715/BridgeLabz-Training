@@ -7,5 +7,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="core-java-practice/gcr-codebase/strings"/>
+	<classpathentry kind="src" path="core-java-practice/gcr-codebase/methods"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
