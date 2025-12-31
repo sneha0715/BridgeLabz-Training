@@ -33,7 +33,7 @@ class CartItem {
         cart.addItem("Laptop", 50000.0, 1);
         cart.displayTotalCost();
 
-        cart.addItem("Laptop", 50000.0, 1); // adding same item again
+        cart.addItem("Laptop", 50000.0, 1);
         cart.displayTotalCost();
 
         cart.removeItem(1);
