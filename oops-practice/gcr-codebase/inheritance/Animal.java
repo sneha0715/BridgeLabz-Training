@@ -19,19 +19,8 @@ class Cat extends Animal{
 }
 
 class Bird extends Animal{
-  void makesound(){
+  void makeSound(){
     System.out.println("Birds chirps");
   }
-}
 
-public class Main{
-  public static void main(String[] args) {
-    Animal myDog = new Dog();
-    Animal myCat = new Cat();
-    Animal myBird = new Bird();
-
-    myDog.makeSound();
-    myCat.makeSound();
-    myBird.makeSound();
-  }
 }
