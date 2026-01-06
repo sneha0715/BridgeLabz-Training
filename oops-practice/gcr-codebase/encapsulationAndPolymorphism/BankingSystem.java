@@ -40,7 +40,7 @@ abstract class BankAccount {
         this.balance = balance;
     }
 
-    // Concrete methods
+
     public void deposit(double amount) {
         if (amount > 0) {
             balance += amount;
@@ -57,7 +57,6 @@ abstract class BankAccount {
         }
     }
 
-    // Abstract method
     public abstract double calculateInterest();
 
     public void displayAccountDetails() {
@@ -67,16 +66,14 @@ abstract class BankAccount {
     }
 }
 
-// ================= INTERFACE =================
 interface Loanable {
     void applyForLoan();
     double calculateLoanEligibility();
 }
 
-// ================= SAVINGS ACCOUNT =================
 class SavingsAccount extends BankAccount implements Loanable {
 
-    private static final double INTEREST_RATE = 0.04; // 4%
+    private static final double INTEREST_RATE = 0.04; 
 
     public SavingsAccount(String accNo, String name, double balance) {
         super(accNo, name, balance);
@@ -98,7 +95,6 @@ class SavingsAccount extends BankAccount implements Loanable {
     }
 }
 
-// ================= CURRENT ACCOUNT =================
 class CurrentAccount extends BankAccount implements Loanable {
 
     private static final double INTEREST_RATE = 0.02; // 2%
@@ -119,6 +115,6 @@ class CurrentAccount extends BankAccount implements Loanable {
 
     @Override
     public double calculateLoanEligibility() {
-        return balance * 3; // eligible up to 3x balance
+        return balance * 3; 
     }
 }
