@@ -14,21 +14,25 @@ public class HospitalPatientManagement {
             p.getPatientDetails();
             System.out.println("Total Bill: " + p.calculateBill());
 
-            MedicalRecord m = (MedicalRecord) p;
-            m.addRecord("Routine checkup");
-            m.viewRecords();
+            // ✅ SAFE CASTING USING instanceof
+            if (p instanceof MedicalRecord) {
+                MedicalRecord m = (MedicalRecord) p;
+                m.addRecord("Routine checkup");
+                m.viewRecords();
+            }
 
+            System.out.println("----------------------");
         }
     }
 }
 
+// ---------- ABSTRACT CLASS ----------
 abstract class Patient {
 
     private String patientId;
     private String name;
     private int age;
 
-    private String diagnosis;
     private List<String> medicalHistory = new ArrayList<>();
 
     public Patient(String patientId, String name, int age) {
@@ -45,24 +49,18 @@ abstract class Patient {
         System.out.println("Age: " + age);
     }
 
-    protected void setDiagnosis(String diagnosis) {
-        this.diagnosis = diagnosis;
-    }
-
-    protected String getDiagnosis() {
-        return diagnosis;
-    }
-
     protected List<String> getMedicalHistory() {
         return medicalHistory;
     }
 }
 
+// ---------- INTERFACE ----------
 interface MedicalRecord {
     void addRecord(String record);
     void viewRecords();
 }
 
+// ---------- INPATIENT ----------
 class InPatient extends Patient implements MedicalRecord {
 
     private int daysAdmitted;
@@ -87,6 +85,7 @@ class InPatient extends Patient implements MedicalRecord {
     }
 }
 
+// ---------- OUTPATIENT ----------
 class OutPatient extends Patient implements MedicalRecord {
 
     private double consultationFee;
