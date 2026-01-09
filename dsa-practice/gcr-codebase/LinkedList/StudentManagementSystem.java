@@ -17,14 +17,12 @@ class StudentNode {
 class StudentLinkedList {
     StudentNode head;
 
-    // Add at beginning
     void addAtBeginning(int rollNo, String name, int age, char grade) {
         StudentNode newNode = new StudentNode(rollNo, name, age, grade);
         newNode.next = head;
         head = newNode;
     }
 
-    // Add at end
     void addAtEnd(int rollNo, String name, int age, char grade) {
         StudentNode newNode = new StudentNode(rollNo, name, age, grade);
 
@@ -40,7 +38,6 @@ class StudentLinkedList {
         temp.next = newNode;
     }
 
-    // Add at specific position (1-based index)
     void addAtPosition(int position, int rollNo, String name, int age, char grade) {
         if (position == 1) {
             addAtBeginning(rollNo, name, age, grade);
@@ -63,7 +60,6 @@ class StudentLinkedList {
         temp.next = newNode;
     }
 
-    // Delete by roll number
     void deleteByRollNo(int rollNo) {
         if (head == null) {
             System.out.println("List is empty");
@@ -89,7 +85,7 @@ class StudentLinkedList {
         }
     }
 
-    // Search by roll number
+
     void searchStudent(int rollNo) {
         StudentNode temp = head;
 
@@ -107,7 +103,7 @@ class StudentLinkedList {
         System.out.println("Student not found");
     }
 
-    // Update grade
+
     void updateGrade(int rollNo, char newGrade) {
         StudentNode temp = head;
 
@@ -122,7 +118,7 @@ class StudentLinkedList {
         System.out.println("Student not found");
     }
 
-    // Display all records
+
     void displayStudents() {
         if (head == null) {
             System.out.println("No student records available");
