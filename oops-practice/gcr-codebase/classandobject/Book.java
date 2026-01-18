@@ -1,3 +1,5 @@
+package classandobject;
+
 class Book {
     String title;
     String author;
