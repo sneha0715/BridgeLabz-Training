@@ -12,4 +12,14 @@ public class AddressBookService {
     Contact contact=addressBookRepository.getContact();
     System.out.println(contact);
   }
+  public void editContactByName(String firstName , String newFirstName ,String newLastName, String address, String city, String state, String zip, String phoneNumber , String email){
+    Contact contact=addressBookRepository.getContact();
+    if(firstName.equals(contact.getFirstName())){
+      Contact updatedContact =new Contact(newFirstName, newLastName, address, city, state, zip, phoneNumber, email);
+      addressBookRepository.edit(updatedContact);
+      System.out.println("Contact updated successfully");
+    }else{
+      System.out.println("No contact with this name.");
+    }
+  }
 }

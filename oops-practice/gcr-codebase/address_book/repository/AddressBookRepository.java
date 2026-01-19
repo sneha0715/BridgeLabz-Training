@@ -8,5 +8,7 @@ public class AddressBookRepository {
   public Contact getContact(){
     return contact;
   }
-
+  public void edit(Contact updatedContact){
+    this.contact=updatedContact;
+  }
 }
