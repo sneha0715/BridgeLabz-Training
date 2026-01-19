@@ -17,6 +17,9 @@ public class AddressBookController {
           handleEditUser(scanner, addressBookService);
           break;
         case 3:
+          handleDeleteUser(scanner, addressBookService);
+          break;
+        case 4:
           return;
         default:
           System.out.println("Invalid user Choice!! ");
@@ -28,7 +31,8 @@ public class AddressBookController {
   static int getUserChoice(Scanner scanner) {
     System.out.println("1. Add new Contact");
     System.out.println("2. Edit Contact");
-    System.out.println("3. Exit");
+    System.out.println("3. Delete Contact");
+    System.out.println("4. Exit");
     System.out.println("Enter your choice: ");
     int choice=scanner.nextInt();
     scanner.nextLine();
@@ -83,5 +87,9 @@ public class AddressBookController {
     addressBookService.editContactByName(firstName, newFirstName, newLastName, address, city, state, zip, phoneNumber,
         email);
   }
-
+  static void handleDeleteUser(Scanner scanner, AddressBookService addressBookService){
+    System.out.println("Enter first name: ");
+    String firstName=scanner.nextLine();
+    addressBookService.deleteContactByName(firstName);
+  }
 }

@@ -1,4 +1,4 @@
-
+package inheritance;
 class BookLibrary {
     String title;
     int publicationYear;

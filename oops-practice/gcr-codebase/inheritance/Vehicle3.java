@@ -1,3 +1,4 @@
+package inheritance;
 class Vehicle3 {
     int maxSpeed;
     String model;

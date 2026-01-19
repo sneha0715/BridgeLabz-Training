@@ -1,3 +1,4 @@
+package operators;
 public class Vehicles {
 
     static double registrationFee = 150.0;

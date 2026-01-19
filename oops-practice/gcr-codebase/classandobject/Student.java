@@ -1,3 +1,4 @@
+package classandobject;
 class Student {
     String name;
     int rollNumber;

@@ -1,3 +1,4 @@
+package classandobject;
 class MovieTicket {
     String movieName;
     int seatNumber;

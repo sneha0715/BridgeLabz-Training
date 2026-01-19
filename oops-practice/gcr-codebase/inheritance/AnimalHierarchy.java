@@ -1,3 +1,4 @@
+package inheritance;
 class AnimalHierarchy{
   public static void main(String[] args) {
     Animal myDog = new Dog();

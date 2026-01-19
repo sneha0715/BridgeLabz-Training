@@ -1,3 +1,4 @@
+package operators;
 public class Student {
 
     static String universityName = "Global University";

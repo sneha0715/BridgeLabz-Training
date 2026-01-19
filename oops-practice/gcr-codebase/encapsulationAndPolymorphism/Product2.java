@@ -1,3 +1,4 @@
+package encapsulationAndPolymorphism;
 public abstract class Product2 {
 
     private int productId;

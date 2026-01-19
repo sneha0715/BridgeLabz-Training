@@ -1,3 +1,4 @@
+package inheritance;
 public class RestaurantSystem {
     public static void main(String[] args) {
         Worker[] workers = {

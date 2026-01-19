@@ -1,3 +1,4 @@
+package inheritance;
 class Vehicle2 {
     int maxSpeed;
     String fuelType;

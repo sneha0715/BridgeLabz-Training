@@ -1,3 +1,4 @@
+package inheritance;
 class BankAccount2 {
     int accountNumber;
     double balance;

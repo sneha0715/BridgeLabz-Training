@@ -1,3 +1,4 @@
+package inheritance;
 class RestaurantPerson {
     String name;
     int id;

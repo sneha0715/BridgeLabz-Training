@@ -1,3 +1,4 @@
+package classandobject;
 class MobilePhone {
     String brand;
     String model;

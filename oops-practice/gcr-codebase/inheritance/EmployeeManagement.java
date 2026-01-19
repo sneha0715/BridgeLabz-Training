@@ -1,3 +1,4 @@
+package inheritance;
 public class EmployeeManagement {
   public static void main(String[] args) {
     Employee2 manager=new Manager("Sneha",2,1200.00,5);

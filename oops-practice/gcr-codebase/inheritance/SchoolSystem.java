@@ -1,3 +1,4 @@
+package inheritance;
 public class SchoolSystem {
     public static void main(String[] args) {
         Person[] people = {

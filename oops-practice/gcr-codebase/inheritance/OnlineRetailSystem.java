@@ -1,3 +1,4 @@
+package inheritance;
 public class OnlineRetailSystem {
     public static void main(String[] args) {
 

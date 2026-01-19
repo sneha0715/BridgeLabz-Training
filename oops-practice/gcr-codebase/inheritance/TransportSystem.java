@@ -1,3 +1,4 @@
+package inheritance;
 public class TransportSystem {
     public static void main(String[] args) {
         Vehicle2[] vehicles = new Vehicle2[3];

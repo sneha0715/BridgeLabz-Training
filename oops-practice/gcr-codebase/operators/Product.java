@@ -1,3 +1,4 @@
+package operators;
 public class Product {
 
     static double discount = 10.0;

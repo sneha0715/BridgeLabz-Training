@@ -22,4 +22,14 @@ public class AddressBookService {
       System.out.println("No contact with this name.");
     }
   }
+  public void deleteContactByName(String firstName){
+    Contact contact = addressBookRepository.getContact();
+    if(firstName.equals(contact.getFirstName())){
+      addressBookRepository.edit(null);
+      System.out.println("Contact deleted successfully");
+    }else{
+      System.out.println("No contact with this name.");
+    }
+  }
 }
+

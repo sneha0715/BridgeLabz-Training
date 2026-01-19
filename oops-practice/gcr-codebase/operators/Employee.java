@@ -1,3 +1,4 @@
+package operators;
 public class Employee {
 
     static String companyName = "Tech Solutions Inc.";
