@@ -1,87 +1,83 @@
 import java.util.ArrayList;
 import java.util.List;
 
-abstract class WarehouseItem {
-    private String name;
+abstract class CourseType {
+    private String evaluation;
 
-    public WarehouseItem(String name) {
-        this.name = name;
+    public CourseType(String evaluation) {
+        this.evaluation = evaluation;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public abstract String category();
-}
-
-class Electronics extends WarehouseItem {
-    public Electronics(String name) {
-        super(name);
-    }
-
-    public String category() {
-        return "Electronics";
+    public String getEvaluation() {
+        return evaluation;
     }
 }
 
-class Groceries extends WarehouseItem {
-    public Groceries(String name) {
-        super(name);
-    }
-
-    public String category() {
-        return "Groceries";
+class ExamCourse extends CourseType {
+    public ExamCourse() {
+        super("Exam Based");
     }
 }
 
-class Furniture extends WarehouseItem {
-    public Furniture(String name) {
-        super(name);
-    }
-
-    public String category() {
-        return "Furniture";
+class AssignmentCourse extends CourseType {
+    public AssignmentCourse() {
+        super("Assignment Based");
     }
 }
 
-class Storage<T extends WarehouseItem> {
-    private List<T> data = new ArrayList<>();
-
-    public void store(T item) {
-        data.add(item);
-    }
-
-    public List<T> fetchAll() {
-        return data;
+class ResearchCourse extends CourseType {
+    public ResearchCourse() {
+        super("Research Based");
     }
 }
 
-class DisplayHelper {
-    public static void show(List<? extends WarehouseItem> list) {
-        for (WarehouseItem item : list) {
-            System.out.println(item.getName() + " - " + item.category());
+class Course<T extends CourseType> {
+    private String courseName;
+    private T courseType;
+
+    public Course(String courseName, T courseType) {
+        this.courseName = courseName;
+        this.courseType = courseType;
+    }
+
+    public String info() {
+        return courseName + " - " + courseType.getEvaluation();
+    }
+
+    public T getCourseType() {
+        return courseType;
+    }
+}
+
+class CourseViewer {
+    public static void display(List<? extends CourseType> types) {
+        for (CourseType type : types) {
+            System.out.println(type.getEvaluation());
         }
     }
 }
 
-public class SmartWarehouse {
+public class UniversityCourseManagement {
     public static void main(String[] args) {
 
-        Storage<Electronics> eStore = new Storage<>();
-        eStore.store(new Electronics("Laptop"));
-        eStore.store(new Electronics("Camera"));
+        Course<ExamCourse> math =
+                new Course<>("Mathematics", new ExamCourse());
 
-        Storage<Groceries> gStore = new Storage<>();
-        gStore.store(new Groceries("Sugar"));
-        gStore.store(new Groceries("Oil"));
+        Course<AssignmentCourse> cs =
+                new Course<>("Computer Science", new AssignmentCourse());
 
-        Storage<Furniture> fStore = new Storage<>();
-        fStore.store(new Furniture("Bed"));
-        fStore.store(new Furniture("Sofa"));
+        Course<ResearchCourse> phd =
+                new Course<>("PhD Research", new ResearchCourse());
 
-        DisplayHelper.show(eStore.fetchAll());
-        DisplayHelper.show(gStore.fetchAll());
-        DisplayHelper.show(fStore.fetchAll());
+        List<CourseType> evaluations = new ArrayList<>();
+        evaluations.add(math.getCourseType());
+        evaluations.add(cs.getCourseType());
+        evaluations.add(phd.getCourseType());
+
+        System.out.println(math.info());
+        System.out.println(cs.info());
+        System.out.println(phd.info());
+
+        CourseViewer.display(evaluations);
     }
 }
