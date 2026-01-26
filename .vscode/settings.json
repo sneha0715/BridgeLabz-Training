@@ -1,6 +1,6 @@
 {
   "java.project.sourcePaths": [
-    "oops-practice/gcr-codebase",
-    "dsa-practice/gcr-codebase/BigoNotation"
+    "dsa-practice/gcr-codebase/BigoNotation",
+    "collections-practice/gcr-codebase/javaStreams"
   ]
 }
