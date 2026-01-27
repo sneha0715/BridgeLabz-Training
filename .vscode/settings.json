@@ -1,6 +1,6 @@
 {
   "java.project.sourcePaths": [
-    "dsa-practice/gcr-codebase/BigoNotation",
-    "collections-practice/gcr-codebase/javaStreams"
+    "collections-practice/gcr-codebase/javaStreams",
+    "collections-practice/gcr-codebase/exceptionHandling"
   ]
 }
