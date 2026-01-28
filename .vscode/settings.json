@@ -1,6 +1,10 @@
 {
   "java.project.sourcePaths": [
-    "collections-practice/gcr-codebase/javaStreams",
-    "collections-practice/gcr-codebase/exceptionHandling"
-  ]
+    "collections-practice\\gcr-codebase\\test",
+    "collections-practice\\gcr-codebase\\test\\src\\main\\java",
+    "collections-practice\\gcr-codebase\\test\\src\\test\\java"
+  ],
+  "java.project.referencedLibraries": [],
+  "java.project.explorer.showNonJavaResources": false,
+  "java.dependency.packagePresentation": "hierarchical"
 }
