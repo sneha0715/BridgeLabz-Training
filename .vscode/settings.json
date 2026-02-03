@@ -1,6 +1,6 @@
 {
   "java.project.sourcePaths": [
-    "collections-practice/gcr-codebase/annotations"
+    "collections-practice/scenario-based"
   ],
   "java.project.referencedLibraries": [],
   "java.project.explorer.showNonJavaResources": false,
