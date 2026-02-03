@@ -1,5 +1,7 @@
 {
   "java.project.sourcePaths": [
-    "io-programming/gcr-codebase/csv-file-handling"
-  ]
+    "io-programming/gcr-codebase/json/src/main/java/com/sneha",
+    "io-programming/gcr-codebase/json/src/main/java"
+  ],
+  "java.project.explorer.showNonJavaResources": false
 }
