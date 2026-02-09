@@ -1,6 +1,5 @@
 {
   "java.project.sourcePaths": [
-    "oops-practice/gcr-codebase",
-    "dsa-practice/gcr-codebase/BigoNotation"
+    "jdbc-dbms-practice/gcr-codebase/health_clinic/src/main/java/com/sneha/health_clinic"
   ]
 }
