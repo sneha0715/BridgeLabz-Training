@@ -1,5 +1,6 @@
 {
   "java.project.sourcePaths": [
     "jdbc-dbms-practice/gcr-codebase/health_clinic/src/main/java/com/sneha/health_clinic"
-  ]
+  ],
+  "java.configuration.updateBuildConfiguration": "automatic"
 }
