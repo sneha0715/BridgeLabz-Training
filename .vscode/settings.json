@@ -1,6 +1,6 @@
 {
   "java.project.sourcePaths": [
-    "oops-practice\\gcr-codebase"
+    "oops-practice/scenario-based/m1PracticeQuestions"
   ],
   "java.project.referencedLibraries": [],
   "java.dependency.packagePresentation": "hierarchical",
