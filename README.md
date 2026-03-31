@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-welcome
-=======
-<<<<<<< HEAD
-=======
 # BridgeLabz-Training
 # Daily Progress Log – BridgeLabz Training
 
