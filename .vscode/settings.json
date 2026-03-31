@@ -1,9 +1,0 @@
-{
-  "java.project.sourcePaths": [
-    "collections-practice/scenario-based"
-  ],
-  "java.project.referencedLibraries": [],
-  "java.project.explorer.showNonJavaResources": false,
-  "java.dependency.packagePresentation": "hierarchical",
-  "java.debug.settings.onBuildFailureProceed": true
-}
